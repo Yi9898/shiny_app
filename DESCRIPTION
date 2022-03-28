@@ -1,13 +1,9 @@
 Package: BioCDogma
-Title: An Amazing Shiny App
+Title: A Fantastic Shiny APP
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R: person('Yi', 'Huang', email = 'yihuang9898@gmail.com', role = c('cre', 'aut'))
+Description: This App is about the central dogma in biology.
+License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
@@ -15,3 +11,5 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+URL: https://github.com/Yi9898/shiny_app.git
+BugReports: https://github.com/Yi9898/shiny_app.git/issues
