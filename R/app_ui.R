@@ -10,7 +10,13 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("BioCDogma")
+      h1("BioCDogma"),
+      tabsetPanel(
+        tabPanel(title = "panel1",
+                 "module1"),
+        tabPanel(title = "AA abundance",
+                 mod_AA_abundance_ui("AA_abundance_1"))
+      )
     )
   )
 }
