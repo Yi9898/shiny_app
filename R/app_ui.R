@@ -12,8 +12,8 @@ app_ui <- function(request) {
     fluidPage(
       h1("BioCDogma"),
       tabsetPanel(
-        tabPanel(title = "panel1",
-                 "module1"),
+        tabPanel(title = "Expression",
+                 mod_Expression_ui("Expression_1")),
         tabPanel(title = "AA abundance",
                  mod_AA_abundance_ui("AA_abundance_1"))
       )
